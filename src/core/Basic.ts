@@ -34,6 +34,7 @@ export class Basic {
       alpha: true,
       antialias: true,
     });
+    this.renderer.setClearColor(0x000000, 0); // Transparent background
     this.renderer.setPixelRatio(window.devicePixelRatio);
     this.renderer.setSize(this.dom.offsetWidth, this.dom.offsetHeight);
     this.dom.appendChild(this.renderer.domElement);

@@ -10,7 +10,7 @@ import apertureImg from "../assets/images/earth/aperture.png";
 import glowImg from "../assets/images/earth/glow.png";
 import lightColumnImg from "../assets/images/earth/light_column.png";
 import aircraftImg from "../assets/images/earth/aircraft.png";
-import earthImg from "../assets/images/earth/earth.jpg";
+import earthImg from "../assets/images/earth/Tai.png";
 
 interface ITextures {
   name: string;
